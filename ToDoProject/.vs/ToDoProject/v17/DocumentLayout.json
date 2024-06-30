@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\asp.net c# project\\ToDoProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0894FA-E758-4D98-B485-037879BD29AE}|ToDoProject\\ToDoProject.csproj|d:\\asp.net c# project\\todoproject\\todoproject\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0894FA-E758-4D98-B485-037879BD29AE}|ToDoProject\\ToDoProject.csproj|solutionrelative:todoproject\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0894FA-E758-4D98-B485-037879BD29AE}|ToDoProject\\ToDoProject.csproj|d:\\asp.net c# project\\todoproject\\todoproject\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0894FA-E758-4D98-B485-037879BD29AE}|ToDoProject\\ToDoProject.csproj|solutionrelative:todoproject\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0894FA-E758-4D98-B485-037879BD29AE}|ToDoProject\\ToDoProject.csproj|d:\\asp.net c# project\\todoproject\\todoproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0894FA-E758-4D98-B485-037879BD29AE}|ToDoProject\\ToDoProject.csproj|solutionrelative:todoproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0894FA-E758-4D98-B485-037879BD29AE}|ToDoProject\\ToDoProject.csproj|d:\\asp.net c# project\\todoproject\\todoproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0894FA-E758-4D98-B485-037879BD29AE}|ToDoProject\\ToDoProject.csproj|solutionrelative:todoproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0894FA-E758-4D98-B485-037879BD29AE}|ToDoProject\\ToDoProject.csproj|d:\\asp.net c# project\\todoproject\\todoproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0894FA-E758-4D98-B485-037879BD29AE}|ToDoProject\\ToDoProject.csproj|solutionrelative:todoproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0894FA-E758-4D98-B485-037879BD29AE}|ToDoProject\\ToDoProject.csproj|d:\\asp.net c# project\\todoproject\\todoproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EE0894FA-E758-4D98-B485-037879BD29AE}|ToDoProject\\ToDoProject.csproj|solutionrelative:todoproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0894FA-E758-4D98-B485-037879BD29AE}|ToDoProject\\ToDoProject.csproj|d:\\asp.net c# project\\todoproject\\todoproject\\migrations\\20240623134427_addusertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0894FA-E758-4D98-B485-037879BD29AE}|ToDoProject\\ToDoProject.csproj|solutionrelative:todoproject\\migrations\\20240623134427_addusertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0894FA-E758-4D98-B485-037879BD29AE}|ToDoProject\\ToDoProject.csproj|d:\\asp.net c# project\\todoproject\\todoproject\\todoproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EE0894FA-E758-4D98-B485-037879BD29AE}|ToDoProject\\ToDoProject.csproj|solutionrelative:todoproject\\todoproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0894FA-E758-4D98-B485-037879BD29AE}|ToDoProject\\ToDoProject.csproj|d:\\asp.net c# project\\todoproject\\todoproject\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0894FA-E758-4D98-B485-037879BD29AE}|ToDoProject\\ToDoProject.csproj|solutionrelative:todoproject\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\asp.net c# project\\ToDoProject\\ToDoProject\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ToDoProject\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\asp.net c# project\\ToDoProject\\ToDoProject\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ToDoProject\\Controllers\\UserController.cs",
+              "ViewState": "AQIAABIAAAA4ZWZmZmYwwB8AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T05:22:06.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ToDoProject.csproj",
+              "DocumentMoniker": "D:\\asp.net c# project\\ToDoProject\\ToDoProject\\ToDoProject.csproj",
+              "RelativeDocumentMoniker": "ToDoProject\\ToDoProject.csproj",
+              "ToolTip": "D:\\asp.net c# project\\ToDoProject\\ToDoProject\\ToDoProject.csproj",
+              "RelativeToolTip": "ToDoProject\\ToDoProject.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-23T12:56:55.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\asp.net c# project\\ToDoProject\\ToDoProject\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "ToDoProject\\Models\\Item.cs",
+              "ToolTip": "D:\\asp.net c# project\\ToDoProject\\ToDoProject\\Models\\Item.cs",
+              "RelativeToolTip": "ToDoProject\\Models\\Item.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAYwBQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T12:52:19.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\asp.net c# project\\ToDoProject\\ToDoProject\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ToDoProject\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\asp.net c# project\\ToDoProject\\ToDoProject\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ToDoProject\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAB8AAAAAZmZmZmYkwBAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-23T12:51:21.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\asp.net c# project\\ToDoProject\\ToDoProject\\Program.cs",
+              "RelativeDocumentMoniker": "ToDoProject\\Program.cs",
+              "ToolTip": "D:\\asp.net c# project\\ToDoProject\\ToDoProject\\Program.cs",
+              "RelativeToolTip": "ToDoProject\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T15:08:31.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "D:\\asp.net c# project\\ToDoProject\\ToDoProject\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "ToDoProject\\Controllers\\ItemController.cs",
+              "ToolTip": "D:\\asp.net c# project\\ToDoProject\\ToDoProject\\Controllers\\ItemController.cs",
+              "RelativeToolTip": "ToDoProject\\Controllers\\ItemController.cs",
+              "ViewState": "AQIAABQAAAAAsDMzMzPzvxcAAACCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T13:46:09.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240623134427_AddUserTable.cs",
+              "DocumentMoniker": "D:\\asp.net c# project\\ToDoProject\\ToDoProject\\Migrations\\20240623134427_AddUserTable.cs",
+              "RelativeDocumentMoniker": "ToDoProject\\Migrations\\20240623134427_AddUserTable.cs",
+              "ToolTip": "D:\\asp.net c# project\\ToDoProject\\ToDoProject\\Migrations\\20240623134427_AddUserTable.cs",
+              "RelativeToolTip": "ToDoProject\\Migrations\\20240623134427_AddUserTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T13:44:27.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\asp.net c# project\\ToDoProject\\ToDoProject\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ToDoProject\\Models\\User.cs",
+              "ToolTip": "D:\\asp.net c# project\\ToDoProject\\ToDoProject\\Models\\User.cs",
+              "RelativeToolTip": "ToDoProject\\Models\\User.cs",
+              "ViewState": "AQIAAAkAAAAA/v////8fwAgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T15:09:34.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\asp.net c# project\\ToDoProject\\ToDoProject\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "ToDoProject\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\asp.net c# project\\ToDoProject\\ToDoProject\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "ToDoProject\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T06:55:22.466Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
