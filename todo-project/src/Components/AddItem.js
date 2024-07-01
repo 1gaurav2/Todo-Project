@@ -5,7 +5,7 @@ function AddItemModal({ onSave, onClose }) {
         itemName: '',
         description: '',
         priority: '',
-        type: ''  // Default value for type
+        type: ''
     });
 
     function handleChange(e) {

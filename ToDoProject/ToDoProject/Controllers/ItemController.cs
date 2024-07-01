@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ToDoProject.DTOs;
 
 namespace ToDoProject.Controllers
 {
@@ -21,7 +22,7 @@ namespace ToDoProject.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Item>>> GetAllItems(string search = "", string type = "", string priority = "")
+        public async Task<ActionResult<IEnumerable<ItemDTO>>> GetAllItems(string search = "", string type = "", string priority = "")
         {
             try
             {
@@ -29,12 +30,21 @@ namespace ToDoProject.Controllers
                     .FromSqlRaw("EXECUTE dbo.GetItems @search={0}, @type={1}, @priority={2}", search, type, priority)
                     .ToListAsync();
 
-                if (items == null )
+                if (items == null)
                 {
-                    return new List<Item>();
+                    return new List<ItemDTO>();
                 }
 
-                return Ok(items);
+                var itemDTOs = items.Select(item => new ItemDTO
+                {
+                    ItemId = item.ItemId,
+                    ItemName = item.ItemName,
+                    Description = item.Description,
+                    Priority = item.Priority,
+                    Type = item.Type
+                }).ToList();
+
+                return Ok(itemDTOs);
             }
             catch (Exception ex)
             {
@@ -45,7 +55,7 @@ namespace ToDoProject.Controllers
 
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Item>> GetItemById(int id)
+        public async Task<ActionResult<ItemDTO>> GetItemById(int id)
         {
             try
             {
@@ -54,7 +64,18 @@ namespace ToDoProject.Controllers
                 {
                     return NotFound();
                 }
-                return Ok(item);
+
+                // Map the entity to the DTO
+                var itemDTO = new ItemDTO
+                {
+                    ItemId = item.ItemId,
+                    ItemName = item.ItemName,
+                    Description = item.Description,
+                    Priority = item.Priority,
+                    Type = item.Type
+                };
+
+                return Ok(itemDTO);
             }
             catch (Exception ex)
             {
@@ -63,14 +84,26 @@ namespace ToDoProject.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Item>> AddItem(Item item)
+        public async Task<ActionResult<ItemDTO>> AddItem(ItemDTO itemDTO)
         {
             try
             {
+                // Map the DTO to the entity model
+                var item = new Item
+                {
+                    ItemName = itemDTO.ItemName,
+                    Description = itemDTO.Description,
+                    Priority = itemDTO.Priority,
+                    Type = itemDTO.Type
+                };
+
                 _dbContext.Items.Add(item);
                 await _dbContext.SaveChangesAsync();
 
-                return CreatedAtAction(nameof(AddItem), new { id = item.ItemId }, item);
+                // Update the DTO with the generated ID
+                itemDTO.ItemId = item.ItemId;
+
+                return CreatedAtAction(nameof(AddItem), new { id = itemDTO.ItemId }, itemDTO);
             }
             catch (Exception ex)
             {
@@ -79,14 +112,26 @@ namespace ToDoProject.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> EditItem(int id, Item item)
+        public async Task<ActionResult> EditItem(int id, ItemDTO itemDTO)
         {
             try
             {
-                if (id != item.ItemId)
+                if (id != itemDTO.ItemId)
                 {
                     return BadRequest("ID mismatch");
                 }
+
+                var item = await _dbContext.Items.FindAsync(id);
+                if (item == null)
+                {
+                    return NotFound("Record not found");
+                }
+
+                // Map the DTO to the entity model
+                item.ItemName = itemDTO.ItemName;
+                item.Description = itemDTO.Description;
+                item.Priority = itemDTO.Priority;
+                item.Type = itemDTO.Type;
 
                 _dbContext.Entry(item).State = EntityState.Modified;
                 await _dbContext.SaveChangesAsync();
@@ -113,6 +158,7 @@ namespace ToDoProject.Controllers
         {
             return _dbContext.Items.Any(x => x.ItemId == id);
         }
+
 
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteItem(int id)

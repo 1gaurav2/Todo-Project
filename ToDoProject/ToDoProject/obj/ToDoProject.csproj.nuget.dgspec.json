@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\asp.net c# project\\ToDoProject\\ToDoProject\\ToDoProject.csproj": {}
+    "C:\\Assignment\\ToDoProject\\ToDoProject\\ToDoProject.csproj": {}
   },
   "projects": {
-    "D:\\asp.net c# project\\ToDoProject\\ToDoProject\\ToDoProject.csproj": {
+    "C:\\Assignment\\ToDoProject\\ToDoProject\\ToDoProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\asp.net c# project\\ToDoProject\\ToDoProject\\ToDoProject.csproj",
+        "projectUniqueName": "C:\\Assignment\\ToDoProject\\ToDoProject\\ToDoProject.csproj",
         "projectName": "ToDoProject",
-        "projectPath": "D:\\asp.net c# project\\ToDoProject\\ToDoProject\\ToDoProject.csproj",
+        "projectPath": "C:\\Assignment\\ToDoProject\\ToDoProject\\ToDoProject.csproj",
         "packagesPath": "C:\\Users\\Gaurav\\.nuget\\packages\\",
-        "outputPath": "D:\\asp.net c# project\\ToDoProject\\ToDoProject\\obj\\",
+        "outputPath": "C:\\Assignment\\ToDoProject\\ToDoProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gaurav\\AppData\\Roaming\\NuGet\\NuGet.Config",

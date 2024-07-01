@@ -18,10 +18,10 @@ function EditItemModal({ item, onSave, onClose }) {
         <div>
             <h2>Edit Item</h2>
             <form onSubmit={handleSubmit}>
-                <div className="form-group form-field">
+                {/* <div className="form-group form-field">
                     <label className='text-left'>ID:</label>
                     <input type="text" required name="itemId" value={formData.itemId} readOnly className="form-control" />
-                </div>
+                </div> */}
                 <div className="form-group form-field">
                     <label>Item Name:</label>
                     <input type="text" required name="itemName" value={formData.itemName} onChange={handleChange} className="form-control" />
@@ -46,8 +46,10 @@ function EditItemModal({ item, onSave, onClose }) {
                         <label><input type="radio" name="type" value="Personal" checked={formData.type === 'Personal'} onChange={handleChange} /> Personal</label>
                     </div>
                 </div>
-                <button type="submit" className="btn btn-primary">Save</button>
-                <button onClick={onClose} className="btn btn-secondary">Cancel</button>
+                <div className='d-flex justify-content-between'>
+                    <button type="submit" className="btn btn-primary">Save</button>
+                    <button onClick={onClose} className="btn btn-secondary">Cancel</button>
+                </div>
             </form>
         </div>
     );

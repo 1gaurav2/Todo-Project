@@ -64,8 +64,6 @@ function ItemList() {
 
     function clearSearch() {
         setSearchTerm({ search: "", type: "", priority: "" });
-
-        //fetchTodo();
     }
 
 
