@@ -46,6 +46,7 @@ function ItemList() {
             axios.delete(`https://localhost:7231/api/Item/${id}`)
                 .then(() => {
                     setTodo(prevTodo => prevTodo.filter(item => item.itemId !== id));
+                    toast.success("Data deleted Succesfully");
                 })
                 .catch(err => {
                     if (err.response) {
@@ -109,6 +110,8 @@ function ItemList() {
             .then(() => {
                 setTodo(prevTodo => prevTodo.map(item => (item.itemId === updatedItem.itemId ? updatedItem : item)));
                 setEditingItem(null);
+                toast.success("Data edited succesfully");
+
             })
             .catch(err => {
                 if (err.response) {
@@ -127,6 +130,8 @@ function ItemList() {
             .then(res => {
                 setTodo(prevTodo => [...prevTodo, res.data]);
                 setAddingItem(false);
+                toast.success("Data added succesfully");
+
             })
             .catch(err => {
                 console.error("Error adding item: ", err);
